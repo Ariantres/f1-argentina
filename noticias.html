@@ -1,69 +1,89 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Noticias F1 - Cards</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Fórmula 1</h1>
-      <nav>
-        <ul class="nav-menu">
-          <li><a href="index.html">Inicio</a></li>
-          <li><a href="noticias.html">Noticias</a></li>
-          <li><a href="horarios.html">Horarios</a></li>
-          <li><a href="temporadas.html">Temporadas</a></li>
-          <li><a href="calculadora.html">Calculadora</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <main>
-      <h2>Últimas Noticias</h2>
-      <section class="grid-resumen">
-        <article>
-          <img
-            src="assets/noticia1.avif"
-            alt="Carrera de F1"
-            style="width: 100%; border-radius: 8px"
-          />
-          <h3>Verstappen gana en Mónaco</h3>
-          <p>
-            El piloto neerlandés se lleva la victoria en una carrera
-            estratégica.
-          </p>
-        </article>
-        <article>
-          <img
-            src="assets/noticia2.jpg"
-            alt="Pit Stop"
-            style="width: 100%; border-radius: 8px"
-          />
-          <h3>Ferrari mejora en clasificación</h3>
-          <p>
-            El equipo italiano logra colocarse en primera fila después de varias
-            carreras.
-          </p>
-        </article>
-        <article>
-          <img
-            src="assets/noticia3.jpg"
-            alt="Parrilla de salida"
-            style="width: 100%; border-radius: 8px"
-          />
-          <h3>Nuevo circuito en Madrid</h3>
-          <p>
-            La Fórmula 1 confirma que el GP de España se trasladará a la capital
-            en 2026.
-          </p>
-        </article>
-      </section>
-    </main>
-
-    <footer>
-      <p>&copy; 2025 Fórmula 1 Fan Site. Todos los derechos reservados.</p>
-    </footer>
-  </body>
+ <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Noticias F1 - Cards
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+   <h1>
+    Fórmula 1
+   </h1>
+   <nav>
+    <ul class="nav-menu nav flex-wrap gap-2">
+     <li>
+      <a class="nav-link text-white" href="index.html">
+       Inicio
+      </a>
+     </li>
+     <li>
+      <a class="nav-link text-white" href="noticias.html">
+       Noticias
+      </a>
+     </li>
+     <li>
+      <a class="nav-link text-white" href="horarios.html">
+       Horarios
+      </a>
+     </li>
+     <li>
+      <a class="nav-link text-white" href="temporadas.html">
+       Temporadas
+      </a>
+     </li>
+     <li>
+      <a class="nav-link text-white" href="calculadora.html">
+       Calculadora
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <main class="container my-4">
+   <h2>
+    Últimas Noticias
+   </h2>
+   <section class="grid-resumen">
+    <article>
+     <img alt="Carrera de F1" src="img/noticia1.jpg" style="width: 100%; border-radius: 8px;"/>
+     <h3>
+      Verstappen gana en Mónaco
+     </h3>
+     <p>
+      El piloto neerlandés se lleva la victoria en una carrera estratégica.
+     </p>
+    </article>
+    <article>
+     <img alt="Pit Stop" src="img/noticia2.jpg" style="width: 100%; border-radius: 8px;"/>
+     <h3>
+      Ferrari mejora en clasificación
+     </h3>
+     <p>
+      El equipo italiano logra colocarse en primera fila después de varias carreras.
+     </p>
+    </article>
+    <article>
+     <img alt="Parrilla de salida" src="img/noticia3.jpg" style="width: 100%; border-radius: 8px;"/>
+     <h3>
+      Nuevo circuito en Madrid
+     </h3>
+     <p>
+      La Fórmula 1 confirma que el GP de España se trasladará a la capital en 2026.
+     </p>
+    </article>
+   </section>
+  </main>
+  <footer>
+   <p>
+    © 2025 Fórmula 1 Fan Site. Todos los derechos reservados.
+   </p>
+  </footer>
+ </body>
 </html>

@@ -1,0 +1,11 @@
+{
+  "name": "f1-argentina",
+  "version": "1.0.0",
+  "description": "Proyecto web de F1 Argentina con SASS",
+  "scripts": {
+    "sass": "npx sass --watch scss/main.scss style.css"
+  },
+  "devDependencies": {
+    "sass": "^1.62.0"
+  }
+}
