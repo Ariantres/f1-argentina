@@ -1,16 +1,10 @@
-// Importaciones globales SCSS
-@use 'abstracts/variables';
-@use 'abstracts/mixins';
+@use 'utils/variables';
+@use 'utils/mixins';
 @use 'base/reset';
-@use 'themes/colors';
+@use 'base/typography';
 @use 'layout/header';
 @use 'layout/footer';
-@use 'layout/grid';
+@use 'layout/main';
 @use 'components/buttons';
-@use 'components/cards';
-@use 'components/navbar';
-@use 'pages/index';
-@use 'pages/noticias';
-@use 'pages/horarios';
-@use 'pages/temporadas';
-@use 'pages/calculadora';
+@use 'components/tables';
+@use 'components/animations';
